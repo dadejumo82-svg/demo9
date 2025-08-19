@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    text-decoration: none;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: lightgray ;
+    background-attachment: fixed;
+    overflow: auto;
+    margin: 0 0 80px 40;
+}
+#doh::placeholder{
+    text-decoration: none;
+    text-align: start;
+}
+#doh{
+    border: none;
+    width: 270px;
+    padding-bottom: 100px;
+    border: 1px solid burlywood;
+}
+button{
+    background-color: slategrey;
+    border: 2px solid white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+}
+button :hover{
+    color: aqua;
+    cursor: pointer1;
+}
+.row{
+    text-align: center;
+}
+#tags{
+color: azure;
+}
+.nav1{
+    width: 100%;
+    color: black;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    height: 80px;
+     background-color: lightslategray;
+}
+.navbar{
+    background-color: lightskyblue;
+    width: 100%;
+    position: static;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list1{
+    list-style: none;
+    text-align: center;
+    display:inline-block;
+}
+
+.list1 :hover{
+    color: aqua;
+}
+.list1 a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.navdiv2{
+    text-decoration: none;
+    align-items: center;
+}
+.list2 :hover{
+    color: aqua;
+}
+.list2 a{
+    color: white;}
+.logo{
+    margin: 10px;
+}
+.area{
+    border-bottom: 2px solid;
+    height: 40px;
+    width: 320px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+#Hq{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.profile{
+    font-size: 15px;
+    margin-left: 30px;
+}
+main{
+    justify-items: center;
+}
+.sr-only{
+    position: absolute;
+    left:-10000px ;
+    width: 1px;
+    height:1px ;
+    top:auto ;
+    overflow: hidden;
+}
+#dob{
+    padding-right: 48px;
+}

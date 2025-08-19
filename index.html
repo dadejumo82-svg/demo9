@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <header>
+    
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><img src="1f.jpg" alt="logo" width="85px" height="85px"></div>
+            <h1>HTML/CSS Exercise</h1>
+           <ul>
+            <li class="list1"><a href="#Sp" accesskey="s">PROFILE</a></li>
+            <li class="list1"><a href="#html-queries" accesskey="q">HTML</a></li>
+            <li class="list1"><a href="#css-queries" accesskey="q">CSS</a></li>
+           </ul> 
+        </div>
+    </nav>
+ </header>
+
+ <main>
+    <form>
+        
+        <section role="region" aria-labelledby="Sp">
+            <div id="down">
+      <div class="area"> <h1 id="Sp">Student Profile</h1></div>
+        <div class="profile">
+   <label for="name">Name :</label>
+    <input type="text" id="name" name="name">
+            </div>
+    <br><br>
+    <div class="profile">
+   <label for="email">Email :</label> 
+     <input type="email" id="email" name="email-address">
+    <br><br>
+    </div>
+
+    <div class="profile">
+     <label for="dob">D.O.B<span class="sr-only">(Date Of Birth)</span> :</label>
+    <input  type="date" id="dob" name="date of birth"><br><br><br>
+</div>
+            </div>
+        </section>
+
+
+         <section role="region" aria-labelledby="html-queries">
+
+                <div class="area"><h1 id="html-queries">HTML</h1><br><br></div>
+       <div id="Hq">
+     <h4>Query #1</h4>
+        <br>
+      <lable> HTML is a programming language<br><br></lable>
+    
+       <input type="radio" id="true" name="true" value="true">
+        <label>True</label>
+        <input type="radio" id="false" name="false" value="false">
+        <label>False </label>
+       </div>
+
+        <div id="Hq"><br><br>
+         <h4>Query #2</h4><br>
+      <label>Legends can be replaced anywhere<br> within a fieldset tag<br><br></label>
+       <input type="radio" id="true" name="true" value="true">
+        <label>True</label>
+         <input type="radio" id="false" name="false" value="false">
+        <label>False </label>
+        </div>
+
+            <div id="Hq"><br><BR>
+         <h4>Query #3</h4><br>
+
+      <label>What is the purpose of the tag in HTML?<br><br></label>
+         <input type="checkbox">
+        <label>To define the title of a document</label><br>
+        <input type="checkbox">
+        <label>To define the style of a document</label><br>
+        <input type="checkbox">
+         <label>To contain metadata about the HTMl <br>document</label><br>
+     </div>
+         </section>
+<br><BR>
+
+         <section role="region" aria-labelledby="css-queries"> 
+       <div class="area"><h1 id="css-queries">CSS</h1></div> 
+        <div id="Hq">
+        <label> CSS is used to control the layout of a <br>Web page?</label><br>
+        <select id="question" name="question">
+    <option value="select an option">Select an option</option>
+    <option value="True">True</option>
+    <option value="fasle">False</option>
+        </select><br><br><br>
+
+        <label>Would having two or more ID selectors<br> with the same name 
+           cause a smooth running,<br> and also help the browser to be 
+           able to target <br>the correct HTML document?
+        </label><br>
+        <select id="question" name="question">
+    <option value="select an option">Select an option</option>
+    <option value="True">True</option>
+    <option value="fasle">False</option>
+        
+        </select><br><br><br>
+
+
+        <label>Do you have any questions?</label><br>
+        <input type="text"  placeholder="A CSS box model is...."  id="doh"><br><br><br>
+        </div>
+
+       <div class="row"> <button type="button"><a href="www.google.com">Submit</a></button></div>
+    </form>
+         </main>
+<br>
+ <footer>
+    <nav class="nav1">
+        <div class="navdiv2">
+            <ul>
+                <li class="list2"><a href="#">codeBloom</a></li>
+                <li>Abuja</li>
+                <li>FCT</li>
+                <li>Nigeria</li>
+            </ul>
+        </div>
+    </nav>
+ </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
